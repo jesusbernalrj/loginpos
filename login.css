@@ -1,0 +1,310 @@
+.login-container{
+  margin-top: 15%;
+}
+.login-form-1{
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+  padding: 5%;
+}
+.login-form-1 h3{
+  text-align: center;
+  color: #333;
+}
+.login-form-2{
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+  padding: 5%;
+  background: black;
+}
+.login-form-2 h3{
+  text-align: center;
+  color: #fff;
+}
+.login-container form{
+  padding: 10%;
+}
+.btnSubmit
+{
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.login-form-1 .btnSubmit{
+  color: #fff;
+  background-color: #0062cc;
+}
+.login-form-2 .btnSubmit{
+  background-color: #fff;
+  color: #0062cc;
+}
+.login-form-2 .ForgetPwd{
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+  color: #0062cc;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.rounded-lg {
+  border-radius: 1rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.space-y-6 {
+  margin-bottom: 1.5rem;
+}
+
+.border {
+  border: 1px solid #e5e7eb;
+}
+
+.border-gray-200 {
+  border-color: #e5e7eb;
+}
+
+.dark:border-gray-700 {
+  border-color: #4b5563;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-zinc-500 {
+  color: #93c5fd;
+}
+
+.dark:text-zinc-400 {
+  color: #cbd5e0;
+}
+
+/* Enlaces */
+a {
+  text-decoration: none;
+}
+
+.text-blue-500 {
+  color: #3b82f6;
+}
+
+.text-blue-700 {
+  color: #2563eb;
+}
+
+/* Inputs de texto */
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.peer-disabled:cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+.peer-disabled:opacity-70 {
+  opacity: 0.7;
+}
+
+/* Input de email */
+#email {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #e5e7eb;
+  background-color: #f3f4f6;
+  padding: 0.75rem;
+  font-size: 0.875rem;
+  outline: none;
+  transition: outline 0.15s;
+}
+
+#email::placeholder {
+  color: #9ca3af;
+}
+
+#email:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* Línea horizontal */
+.flex-grow {
+  flex-grow: 1;
+}
+
+.border-zinc-200 {
+  border-color: #e5e7eb;
+}
+
+.dark:border-zinc-700 {
+  border-color: #4b5563;
+}
+
+.text-zinc-400 {
+  color: #cbd5e0;
+}
+
+dark:text-zinc-300 {
+  color: #d1d5db;
+}
+
+/* Botones */
+
+
+.focus-visible:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.focus-visible:ring-2:focus {
+  --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-width: 2px;
+  --tw-ring-offset-color: #ffffff;
+  --tw-ring-color: #93c5fd;
+  box-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+}
+
+.disabled:pointer-events-none:disabled {
+  pointer-events: none;
+}
+
+.disabled:opacity-50:disabled {
+  opacity: 0.5;
+}
+
+/* Botón de Google */
+.h-10 {
+  height: 2.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+
+
+.text-white {
+  color: #ffffff;
+}
+
+/* Botón de Apple */
+.bg-black {
+  background-color: #000000;
+}
+
+
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+/* Círculo */
+circle {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+}
+
+/* Línea */
+line {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Path */
+
+
+/* Otros estilos */
+.hover:text-accent-foreground:hover {
+  color: #2563eb;
+}
+
+/* Fondo rojo */
+.bg-red-100 {
+  background-color: #fbd5d5;
+}
+
+/* Color de texto rojo */
+.text-red-500 {
+  color: #e53e3e;
+}
+
+/* Relleno interno de 0.5rem en todas las direcciones */
+.p-2 {
+  padding: 0.5rem;
+}
+
+/* Bordes redondeados de 0.375rem */
+.rounded-md {
+  border-radius: 0.375rem;
+}
